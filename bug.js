@@ -1,0 +1,1 @@
+This error occurs when using the Expo SDK's `Camera` component with a custom `onBarCodeScanned` prop.  The callback function might not be called consistently or might throw an error if the barcode is scanned too quickly or multiple times in succession. This is often seen on Android devices.
